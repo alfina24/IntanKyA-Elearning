@@ -1,0 +1,147 @@
+body {
+	margin :0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+header {
+	width: 100%;
+	background-color : #A1DE99;
+	height: 200px;
+}
+
+header .logo {
+	display: inline-block;
+	width: 600px;
+
+}
+header .logo img {
+	margin-top: 15px;
+	width: 220px;
+
+}
+
+header .pendaftaran {
+	padding-left: 30px;
+	position: absolute;
+	margin-left: 430px;
+	margin-top: 15px;
+	display: inline-block;
+	width: 270px;
+	background-color: #76A680;
+	height: 150px;
+
+}
+header .pendaftaran  input {
+	text-align: center;
+	width: 240px;
+	margin-top: 8px;
+	height: 24px;
+	background-color: #A1DE99;
+	border: none;
+
+	
+}
+header .pendaftaran button {
+	width: 80px;
+	border-radius: 3px;
+	border: none;
+	margin-top: 8px;
+	text-align: center;
+	display: inline-block;
+}
+
+
+nav {
+	width: 100%;
+	background-color : #76A680  ;
+	height: 40px;
+}
+nav ul {
+	margin-top: 0px;
+}
+nav ul li {
+	padding-top: 10px;
+	display: inline-block;
+	margin-right: 15px;
+}
+
+nav ul li : hover {
+	background : white;
+}
+
+ #home { 
+	display: inline-block;
+	height: auto;
+	background-color : #76A680;
+	width: 100%;
+	margin-top: 10px;
+
+}
+#home h1{
+	position: absolute;
+	display: inline-block;
+	font-size: 20;
+	margin-top: 5px;
+	height: 30px;
+}
+
+#bghome {
+	height: auto;
+	float: left;
+	width: 60%;
+	background-color: #A1DE99;
+	/*margin-top: 10px;/*/
+}
+
+#rukun {
+	height: 300px;
+	float: left;
+	width: 47%;
+	padding: 10px;
+	/*background-color: #76A680;*/
+	display: inline-block;
+	margin-top :30px;
+}
+
+#kegiatan {
+	height: 300px;
+	width: 47%;
+	float: left;
+	padding: 10px;
+	/*background-color: #76A680;*/
+	margin-top : 30px;
+	display: inline-block;
+}
+
+.content{
+	width: 100%;
+	height:auto;
+	background: #fff;
+	/*padding: 10px;*/	
+}
+nav {
+	width: 100%;
+	background-color : #76A680  ;
+	height: 60px
+
+}
+#home img {
+	/*margin-top: 20px;*/
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+
+}
+
+#DaftarMateri {
+	/*display:block;*/
+	height: 390px;
+	width: : 40%;
+	background-color: #A1DE99;
+	margin-left:  820px;
+	margin-top: 0px;
+	padding-top: 10px
+
+
+ 

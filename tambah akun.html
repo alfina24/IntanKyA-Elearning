@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html> 
+<head>
+  <style>
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    background-color: #76A680;
+  }
+
+  li {
+    display: inline;
+    margin: 5px;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  a:hover {
+    color: white;
+    font-size: 30px;
+  }
+  img#img1 {
+    margin-bottom: 10px;
+  }
+  .tablelogin {
+    background-color: #76A680;
+    padding: 15px 15px 0 15px;
+  }
+  #input01 {
+    background-color: #A1DE99;
+    border: none;
+    height: 20px;
+    margin: 2px;
+  }
+  #submit02{
+    width: 70px;
+    height: 35px;
+  }
+  table.menu {
+    margin-bottom: 15px;
+  }
+  .text {
+    background-color:  #76A680;
+    padding: 10px 10px;
+ }
+</style>
+<title>admin</title>
+</head>
+<body>
+  <table border="0" width="100%" bgcolor="#A1DE99">
+    <tr>
+      <td>
+        <img src="images.png" width="220" height="120" id="img1">
+      </td>
+      <td> 
+        <table align="right" class="tablelogin">
+          <tr>
+            <td>
+              <input type="text" maxlength="20" size="30" id="input01" placeholder="Username">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="text" maxlength="20" size="30" id="input01" placeholder="Password">
+            </td>
+          </tr>
+          <tr align="right">
+            <td>
+              <input type="submit" value="login" id="submit02">
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <table class="menu">
+    <tr colspan="2">      
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">Materi</a></li>
+        <li><a href="#contact">Tentang</a></li>
+        <li><a href="#about">Profile</a></li>
+        <li><a href="#about">Admin</a></li>
+      </ul>
+    </tr>
+  </table>
+  <table border="0" width="100%" bgcolor="#A1DE99">
+    <tr>
+	<h2 class="text main">SELAMAT DATANG DI E-LEARNING</h2>
+</tr>
+    <tr>
+        <td> <table align="left">
+	      <td><label for="nama">NAMA:</label>
+      <td><input type="NAMA" name="NAMA" id="NAMA" maxlength="40" size="20">
+      <tr><td><label for="SEKOLAH">SEKOLAH :</label>
+      <td><select name="SEKOLAH" id="SEKOLAH">
+            <option value="">pilih...</option><option value="jb">SD 1 TRIGONCO</option>
+            <option value="jb">SD 2 TRIGONCO</option>
+            <option value="jb">SD 1 GUDANG</option>
+            <option value="jb">SD 2 GUDANG</option>
+          </select>
+          <tr>
+          <td><label for="nama">MAPEL:</label>
+      <td><input type="MAPEL" name="MAPEL" id="MAPEL" maxlength="40" size="20">
+      	<tr>
+      <td><label for="nama">ALAMAT:</label>
+      <td><input type="ALAMAT" name="ALAMAT" id="ALAMAT" maxlength="40" size="20">
+      	<tr>
+           <td><label for="jenkel">JENIS KELAMIN :</label>
+      <td><input type="radio" name="jenkel" id="jenkel" value="L">Laki-laki<br>
+          <input type="radio" name="jenkel" id="jenkel" value="P">Perempuan</br>
+	  <tr>
+	  	<td><label for="nama">EMAIL:</label>
+      <td><input type="EMAIL" name="EMAIL" id="EMAIL" maxlength="40" size="20">
+      	<tr>
+				<td><label for="nama">NO.HP:</label>
+      <td><input type="NO.HP" name="NO.HP" id="NO.HP" maxlength="40" size="20">
+      	<tr>
+      		<tr><td><label for="tempat lahir">TEMPAT TANGGAL LAHIR</label>
+      <td><select name="propinsi" id="propinsi">
+            <option value="">propinsi...</option><option value="jb">Jawa Timur</option>
+            <option value="jb">Jawa Barat</option>
+            <option value="jb">Jawa Tengah</option>
+          </select>
+		  <select name="kota" id="kota">
+		  <option value="">kota...</option><option value="jk">Jakarta</option>
+		  <option value="jb">Bandung</option>
+		  <option value="jb">Malang</option>
+		  <option value="jb">Surabaya</option>
+		   </select>
+    <tr>
+    			<td><label for="nama">USERNAME:</label>
+      <td><input type="USERNAME" name="USERNAME" id="USERNAME" maxlength="40" size="20">
+      	<tr>
+      				<td><label for="nama">PASSWORD:</label>
+      <td><input type="PASSWORD" name="PASSWORD" id="PASSWORD" maxlength="40" size="20">
+      	<tr>
+<tr><td align="center" colspan="4">
+  <input type="submit" value=" Selesai ">
+  <input type="reset" value=" Batal "></td></tr>
+  </table>
+</form>
+</html>
+
+
+
